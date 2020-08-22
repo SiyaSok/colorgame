@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+body
+{
+    background-color: black;
+    text-align: center;
+    font-family: "Montserrat" , "Avenir";
+    
+}
+
+#container
+{
+    width: 65%;
+    margin: 2% auto;
+}
+
+h1
+{
+    text-align: center;
+    color: #fff;
+     font-size: 2vw;
+    /* line-height: 1.5 */
+    padding: 2% 0;
+    font-weight: 100;
+    background-color: #000;
+    margin: 0% auto;
+    
+
+    
+}
+h1 span
+{
+    text-align: center;
+    display: inherit;
+    font-size: 4vw;
+   text-transform: uppercase;
+   display: block;
+
+}
+
+
+.square
+{
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: black;
+    margin: 1.666%;
+    float: left;
+    border-radius: 10%;
+    transition: background 0.5s;
+    --Webkit-transition: background 0.5s;
+    --moz-transition: background 0.5s;
+}
+
+#stripe
+{
+    background-color: rgb(5, 115, 189);
+    height: 30px;
+    text-align: center
+}
+
+
+#stripe #sms
+{
+  color: #fff;
+  display:inline-block;
+  width: 20%;
+}
+
+.Selected
+{
+    background: #000;
+    color:  rgb(5, 115, 189);
+    font-weight: 700;
+}
+
+button
+{
+    border: none;
+    background: none;
+     text-transform: uppercase;
+     color:#fff;
+     height: 100%;
+     font-size: inherit;
+     font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    outline: none;
+
+}
+button:hover
+{
+    background: #000;
+    color:  rgb(5, 115, 189);
+}
